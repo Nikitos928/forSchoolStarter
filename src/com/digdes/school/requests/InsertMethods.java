@@ -91,7 +91,7 @@ public class InsertMethods {
                 default -> throw new Exception("Такой фунцкии пока нет");
             };
         }
-        return active;
+        return Boolean.TRUE.equals(active);
     }
 
 }
